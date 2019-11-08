@@ -1,0 +1,3 @@
+check process ts-api with pidfile /var/atc/ts-api/pid/app.pid
+start program  "/usr/sbin/service ts-api start"
+stop program  "/usr/sbin/service ts-api stop"

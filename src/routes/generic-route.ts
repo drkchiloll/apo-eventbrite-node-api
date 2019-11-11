@@ -23,3 +23,4 @@ router.route('/events')
   .post(evtBriteCntrler.saveEvent)
 router.get('/events/saved', evtBriteCntrler.getSavedEvents);
 router.delete('/events/:id', evtBriteCntrler.deleteEvent);
+router.post('/event/search', evtBriteCntrler.getEvents)

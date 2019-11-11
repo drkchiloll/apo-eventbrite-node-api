@@ -1,0 +1,12 @@
+{
+  "logging": {
+    "filename": "logs.log",
+    "level": "info"
+  },
+  "postgres": {
+ 		"url": "127.0.0.1:5432",
+		"user": "postgres",
+		"pass": "C!sco1234!"
+  },
+  "eventBriteToken": "token"
+}
